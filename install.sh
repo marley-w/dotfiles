@@ -10,14 +10,13 @@ sudo pacman -S lib32-pipewire \
   lib32-libva-mesa-driver mesa-utils
 
 # Applications
-sudo pacman -S steam wine ttf-meslo-nerd firefox neovim gnome-terminal \
-  gnome-disk-utility gnome-system-monitor
+sudo pacman -S steam wine ttf-meslo-nerd firefox neovim kitty
 
 # Desktop
-sudo pacman -S hyprland xdg-desktop-portal-hyprland wofi nwg-look gdm \
-  polkit-gnome blueberry gnome-keyring
+sudo pacman -S hyprland xdg-desktop-portal-hyprland nwg-look \
+  polkit-gnome blueberry 
 
 # Utilities
 sudo pacman -S bluez bluez-utils gamemode lib32-gamemode mangohud lib32-mangohud \
-  gstreamer lib32-gstreamer
+  gstreamer lib32-gstreamer npm dart-sass go wofi cpupower
 
